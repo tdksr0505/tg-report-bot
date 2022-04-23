@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const node_telegram_bot_api_1 = __importDefault(require("node-telegram-bot-api"));
-const TOKEN = '5391750034:AAEUptLGtIGbWZjQZnbaB0o8RnYeYk8BQa4';
+const TOKEN = 'your_bot_token';
 const bot = new node_telegram_bot_api_1.default(TOKEN, { polling: true });
 const MORNING_EMPLOYEE_COUNT = 4;
 const NIGHT_EMPLOYEE_COUNT = 4;

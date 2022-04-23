@@ -1,7 +1,7 @@
 
 import TelegramBot from 'node-telegram-bot-api';
 
-const TOKEN = '5391750034:AAEUptLGtIGbWZjQZnbaB0o8RnYeYk8BQa4';
+const TOKEN = 'your_bot_token';
 const bot = new TelegramBot(TOKEN, { polling: true });
 
 const MORNING_EMPLOYEE_COUNT = 4;
