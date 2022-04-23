@@ -1,0 +1,15 @@
+{
+  "name": "tg-report-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-telegram-bot-api": "^0.56.2",
+    "node-telegram-bot-api": "^0.56.0"
+  }
+}
